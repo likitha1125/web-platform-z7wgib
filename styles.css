@@ -1,0 +1,41 @@
+body, h1, ul, li {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+header {
+  background-color: rgb(240, 187, 241);
+  color: rgb(158, 12, 12);
+ 
+  
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+nav li {
+  margin: 0 1rem;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+main {
+  padding: 2rem;
+}
+.content {
+  position: relative;
+  border: 1px solid rgb(153, 18, 124);
+  padding: 2rem;
+}
+.content {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
